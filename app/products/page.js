@@ -6,7 +6,7 @@ import '../globals.css'
 import Card from '@/component/Card';
 export default function Products() {
     const [product , setProduct] = useState([]);
-
+    // set 
     const [page , setPage] = useState(0);
     const [search , setSearch] = useState('');
     const [categories , setCategories] = useState([]);
